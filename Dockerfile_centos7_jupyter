@@ -4,5 +4,4 @@ LABEL maintainer="Yiyu Ni"
 
 RUN  cd /home/scoped \
     && pip install git+https://github.com/qibinshi/TeleseismicDenoiser.git \
-    && git pull \
     && docker-clean
